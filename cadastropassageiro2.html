@@ -1,0 +1,317 @@
+
+<html lang="pt-br"> 
+ <head> 
+  <title>teste</title> 
+  
+  <meta charset="utf-8">
+
+
+    
+
+
+  <style rel="stylesheet" type="text/css">
+  
+	body {
+	margin: 0;
+	padding: 0;
+	}
+
+	html {
+	background: url(gifdefundo/anigif.gif) no-repeat center center fixed;
+	background-size: cover;
+	}
+  
+  
+	#containerprincipal {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	}
+
+
+	#titulo h1 {
+		color: #fff;
+		font-family: sans-serif;
+		font-size: 40pt;
+		margin: 10vh 0px 0px 0px;
+		position: relative;
+	}
+
+	#titulo h3 {
+		color: #fff;
+		font-family: sans-serif;
+		font-size: 19pt;
+		margin: 0px 0px 60px 0px;
+	}
+
+	#titulo h4 {
+		color: #fff;
+		font-family: sans-serif;
+		font-size: 17pt;
+		margin: 0px 0px 10px 0px;
+	}
+
+
+
+	#cadastrado {
+		width: 400px;
+		/*height: 80px;*/
+		background-color: #222;
+		border-radius: 10px;
+		display: inline-block;
+		font-family: sans-serif;
+		color: #fff;
+		font-weight: none;
+		transition: 0.3s;
+		margin: 0px 0px 10px 0px;
+		padding: 0px 0px 20px 0px;
+		border: 2px solid #777;
+	}
+
+	#cadastrado input {
+		margin: 20px 0px 0px 0px;
+		border-radius: 5px;
+		font-family: sans-serif;
+		font-size: 15pt;
+		background-color: #111;
+		border: 2px solid #000;
+		text-indent: 10px;
+		color: #fff;
+	}
+
+	#cadastrado {
+		font-size: 20pt;
+		font-family: sans-serif;
+		color: #fff;
+	}
+
+	/*#cadastrado:hover {
+		background-color: #777;
+		color: #222;
+		transition: 0.3s;
+		cursor: pointer;
+
+	}*/
+
+	#criarcadastro {
+		width: 700px;
+		/*height: 80px;*/
+		/*background-color: #444;*/
+		border-radius: 10px;
+		display: inline-block;
+		border: 2px solid #777;
+		background-color: rgba(0, 0, 0, 0.7);
+		
+		padding: 0px 0px 30px 0px;
+		
+
+	}
+
+	#criarcadastro p {
+		font-size: 20pt;
+		font-family: sans-serif;
+		color: #fff;
+		margin: 40px;
+	}
+
+
+	/*#criarcadastro input {
+		margin: 20px 0px 10px 0px;
+		border-radius: 5px;
+		font-family: sans-serif;
+		font-size: 15pt;
+		background-color: #111;
+		border: 2px solid #000;
+		text-indent: 10px;
+		display: block;
+		width: 400px;
+	}*/
+
+
+	#criarcadastro input {
+		margin: 40px 0px 10px 0px;
+		color: #fff;
+		font-family: sans-serif;
+		font-size: 15pt;
+		background: none;
+		border-bottom: 2px solid #fff;
+		border-right: none;
+		border-left: none;
+		border-top: none;
+		text-indent: 10px;
+		display: block;
+		width: 400px;
+	}
+
+
+	/*#criarcadastro:hover {
+		background-color: #777;
+		color: #222;
+		transition: 0.3s;
+		cursor: pointer;
+	}*/
+
+
+	#crieseucadastro {
+		font-family: sans-serif;
+		text-decoration: none;
+		color: #fff;
+		font-size: 16pt;
+		margin: 10px 0px 0px 0px;
+		position: relative;
+	}
+  
+  
+ /*----------------------------------------------------------------------*/
+
+
+  #botao {
+  	border: 2px solid #777;
+  	font-family: sans-serif;
+  	font-size: 20pt;
+  	color: #fff;
+  	background: none;
+  	border-radius: 10px;
+  	margin: 10px 0px 0px 0px;
+  	padding: 5px 20px 5px 20px;
+  	cursor: pointer;
+  }
+
+ 
+  
+  
+  
+  </style>
+ </head> 
+
+ <body> 
+  
+  <div id="containerprincipal">
+  
+
+
+
+
+  	<center><div id="titulo">
+  		<h1>#Corridas.com</h1>
+  		
+  	</div></center>
+
+
+
+
+
+<div id="containersecundario">
+  	<section id="segundaparte"></section>
+
+
+
+  	<center><div id="criarcadastro">
+			
+			<p>Cadastre-se como passageiro:</p>
+			<form id="logintext" method="post" action="#">
+				<input placeholder="Nome" type="text" name="nome">
+
+				<input placeholder="Data de Nascimento" type="number" name="datadenascimento">
+
+				<input placeholder="CPF" type="number" name="cpf">
+
+
+				<input placeholder="Modelo do Carro" type="text" name="carro">
+
+
+				<input placeholder="Status" type="text" name="status">
+
+
+				<input placeholder="Sexo" type="text" name="sexo">
+
+				
+				<button id="botao"  type="submit" name="botao"> Cadastrar </button>
+				
+
+
+
+			</form>
+
+
+
+		</div></center>
+
+
+	
+	
+	
+	
+	
+	
+  </div>
+  
+  
+  
+
+
+
+
+
+
+   <!-- <div id="containersecundario">
+  	<section id="segundaparte"></section>
+
+
+
+  	<center><div id="criarcadastro">
+			
+			<p>Cadastre-se como motorista:</p>
+			<form id="logintext" method="post" action="#">
+				<input placeholder="Nome" type="text" name="nome">
+
+				<input placeholder="Data de Nascimento" type="number" name="datadenascimento">
+
+				<input placeholder="CPF" type="number" name="cpf">
+
+
+				<input placeholder="Modelo do Carro" type="text" name="carro">
+
+
+				<input placeholder="Status" type="text" name="status">
+
+
+				<input placeholder="Sexo" type="text" name="sexo">
+
+			
+
+
+
+			</form>
+
+
+
+		</div></center> -->
+
+
+
+
+
+  </div>
+  
+  
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </body> 
+</html>

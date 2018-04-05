@@ -1,0 +1,438 @@
+
+<html lang="pt-br"> 
+ <head> 
+  <title>teste</title> 
+  
+  <meta charset="utf-8">
+
+  <style rel="stylesheet" type="text/css">
+  
+	body {
+	margin: 0;
+	padding: 0;
+	}
+  
+  
+	#containerprincipal {
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+
+	}
+  
+  
+	#localum {
+	
+		background-color: #222;
+		width: 17%;
+		height: 90%;
+		border-radius: 1px;
+		margin: none;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		position: relative;
+		top: 30px;
+		left: 2%;
+		}
+  
+  #minhafoto img{
+		width: 70%;
+		border-radius: 100px;
+		border: 1px solid #fff;
+		position: relative;
+		background-color: #fff;
+		transition: 0.5s;
+		margin: 20px 0px 0px 0px;
+	}
+	
+	 #minhafoto img:hover{
+		width: 70%;
+		border-radius: 100px;
+		border: 1px solid #fff;
+		position: relative;
+		background-color: #222;
+		transition: 0.3s;
+		margin: 20px 0px 0px 0px;
+		cursor: pointer;
+	}
+  
+  
+	
+  
+  
+	#nome {
+		color: #fff;
+		font-family: Helvetica;
+		font-size: 22pt;
+		border-bottom: 1px solid #00BFFF;
+		margin: 20px;
+		padding: 1px;
+	}
+
+	#outroscontatos {
+
+		overflow-x: hidden;
+		overflow: hidden;
+		height: 50%;
+
+	}
+	
+	#outros {
+		background-color: #fff;
+		width: 90%;
+		height: 60px;
+		margin: 10px 0px 0px 0px;
+		transition: 0.5s;
+		border-top-right-radius: 10px;
+		
+		
+	}
+	
+	
+	#outros:hover {
+		background-color: #708090;
+		width: 90%;
+		height: 60px;
+		margin: 10px 0px 0px 0px;
+		transition: 0.5s;
+	
+	}
+	
+	
+	
+	
+	
+	#voltar p {
+		font-family: Helvetica;
+		font-size: 15pt;
+		color: #fff;
+		margin: 10px 10px 10px 10px;
+		float: left;
+		position: absolute;
+		left: 0px;
+		border-radius: 30px;
+		transition: 0.5s;
+	}
+	
+	#voltar p:hover {
+		font-family: Helvetica;
+		font-size: 15pt;
+		background-color: #fff;
+		padding: 1px 10px 1px 10px;
+		border-radius: 30px;
+		color: #000;
+		margin: 10px 10px 10px 10px;
+		cursor: pointer;
+		transition: 0.5s;
+	}
+	
+	
+	
+	
+	
+	
+	
+  
+  
+  
+  
+	#localdois {
+		background-color: rgba(135,206,250, 0.1);
+		width: 79%;
+		height: 90%;
+		border-radius: 1px;
+		border-bottom: 1px solid #fff;
+		border-top: 1px solid #fff;
+		position: absolute;
+		top: 30px;
+		left: 19%;
+	}
+	
+	
+
+
+
+
+
+	#escrevermensagem input{
+		width: 100%;
+		position: absolute;
+		top: 93%;
+		
+		font-family: Helvetica;
+		font-size: 20pt;
+		background: none;
+		border: none;
+		padding: 0px 0px 0px 10px;
+		color: #fff;
+		z-index: 50;
+	}
+	
+	#mensagens {
+		background-color: #111;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 50;
+	}
+	
+	#mensagensinternas {
+		background: none;
+		width: 100%;
+		height: 92%;
+		border-bottom: 1px solid #333;
+		z-index: 2;
+	}
+
+
+	#vidDisplay {
+		height: 100%;
+		float: left;
+		overflow-y: hidden;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 0.8;
+		display: inline-block;
+		z-index: 1;
+		
+		background-size: cover;
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+	#nomeamigo {
+		width: 100%;
+		height: 70px;
+		background-color: #222;
+		position: absolute;
+		z-index: 9;
+		border: none;
+		margin: 0px 0px 0px 0px;
+		box-shadow: 15px 5px 20px #000;
+	}
+	
+	#nomeamigo p {
+		font-family: Helvetica;
+		font-size: 18pt;
+		float: right;
+		padding: 0px 90px 0px 0px;
+		color: #fff;
+	}
+	
+
+	
+	#fotoamigodois img{
+		width: 60px;
+		border-radius: 50px;
+		border: 1px solid #fff;
+		position: relative;
+		float: right;
+		margin: 5px;
+		cursor: pointer;
+		z-index: 40;
+		background-color: #fff;
+	}
+	
+	
+  
+  
+  
+  </style>
+ </head> 
+
+ <body> 
+  
+  <div id="containerprincipal">
+  
+	<div id="localum">
+	
+		
+	
+		<center><div id="fotoperfil">
+		<div id="minhafoto">
+			<!-- <img src="perfilamigo.png"/> -->
+		</div>
+	
+		</div></center>
+		
+		
+		<center><div id="nome">
+			Nome de usuário
+		</div></center>
+		
+		<div id="outroscontatos">
+		
+		<div id="outros">
+		
+		</div>
+		
+		<div id="outros">
+		
+		</div>
+		
+		<div id="outros">
+		
+		</div>
+		
+		<div id="outros">
+		
+		</div>
+
+		<div id="outros">
+		
+		</div>
+
+		<div id="outros">
+		
+		</div>
+
+		<div id="outros">
+		
+		</div>
+
+		<div id="outros">
+		
+		</div>
+
+		<div id="outros">
+		
+		</div>
+
+		<div id="outros">
+		
+		</div>
+
+
+		<div id="outros">
+		
+		</div>
+
+		<div id="outros">
+		
+		</div>
+		
+		</div>
+
+		<div id="voltar">
+			<p>Voltar</p>
+		</div>
+		
+		
+		
+	</div>
+  
+  
+	<div id="localdois">
+	
+	
+	<center><div id="mensagens">
+	
+
+				
+				
+	<div id="fotoamigodois">
+		
+	</div>
+				
+	<div id="nomeamigo">
+	<p>Marcos Vinicios</p>
+	</div>
+	
+			<div id="mensagensinternas">
+			
+			
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			</div>
+	
+
+
+
+
+
+
+
+
+	
+	
+	</div></center>
+	
+	
+	
+	<div id="escrevermensagem">
+	
+		<form action="#" method="post" name="formulario">
+		<input placeholder="Escreva uma mensagem..." type="text"/>
+		</form>
+	
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	</div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  
+  
+ </body> 
+</html>
